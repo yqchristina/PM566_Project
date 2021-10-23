@@ -3,9 +3,9 @@ title: "PM566_Midterm"
 author: "Christina Lin"
 date: "10/17/2021"
 output:  
-  github_document: default
   html_document:
     html_preview: true
+  github_document: default
   word_document: default
 always_allow_html: true
 ---
@@ -154,6 +154,9 @@ ggplot(chol_function) +
   xlab("Subcellular Location") + ylab ("Mass (Dalton)") + ggtitle("Subcellular Location of Cholesteroland Steroid Related Brain CYP450s")
 
 ```
+
+
+
 Figure 3: Subcellular location and masses of human CYP450s expressed in the brain that are involved in cholesterol and steroid functions. The majority of these enzymes are located in the endoplasmic reticulum. CYP27A1 is the only one of these enzymes that is only located in the mitochondria while CYP1B1 is found in both the endoplasmic reticulum and mitochondria. The enzymes that localize to the mitochondria also appear to have higher masses than those that are only found in the ER. 
 
 
